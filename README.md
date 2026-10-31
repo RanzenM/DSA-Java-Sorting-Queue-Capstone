@@ -81,3 +81,27 @@ Repeatedly compares neighboring records and swaps them if they are out of order.
 Builds a sorted section one record at a time, moving each new record backward until it sits in the correct place. Suitable because it is efficient for small or nearly sorted lists, such as a list that only receives a few new tickets at a time.
 
 Neither algorithm uses Java's built-in sorting methods.
+
+All screenshots were taken from the actual running program. They are collected in
+, where each screenshot has a caption explaining what it shows.
+
+The PDF covers all the required screenshots:
+
+| # | Required screenshot | What it shows |
+|---|---------------------|---------------|
+| 1 | Main menu | The menu-driven interface with all options |
+| 2 | Adding and displaying records | Creating a ticket (#1006) and listing all stored tickets |
+| 3 | Queue operations | Enqueue, peek, dequeue, and display queue |
+| 4 | FIFO behavior | Tickets enqueued as 1004, 1002, 1005 are processed in that same order |
+| 5 | Sorting algorithm 1 | Bubble Sort by date, records before and after |
+| 6 | Sorting algorithm 2 | Insertion Sort by requester name, records before and after |
+| 7 | Input validation | Invalid menu input, empty name, and wrong date format are rejected |
+
+## Repository Structure
+
+```
+DSA-Java-Sorting-Queue-Capstone/
+├── SRC/
+│   └── Main.java
+├── Screenshots-documentations.pdf
+└── README.md
