@@ -83,7 +83,7 @@ Builds a sorted section one record at a time, moving each new record backward un
 Neither algorithm uses Java's built-in sorting methods.
 
 All screenshots were taken from the actual running program. They are collected in
-[https://github.com/RanzenM/DSA-Java-Sorting-Queue-Capstone/blob/main/screenshots/Screenshots-Documentation.pdf](url), where each screenshot has a caption explaining what it shows.
+Screenshots-Documentation.pdf, where each screenshot has a caption explaining what it shows.
 
 The PDF covers all the required screenshots:
 
